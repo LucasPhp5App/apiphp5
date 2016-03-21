@@ -1,0 +1,14 @@
+<?php
+if (!function_exists('ssh2_connect'))
+{
+        die("Install ssh2 module.\n");
+}
+if ($_GET['key'] != "KDoejt9234dj"){
+die("Go Fuck Yourself.");
+}
+if (isset($_GET['host'], $_GET['used'], $_GET['time'], $_GET['date'])) {
+        $SERVERS = array(
+                "IP"       =>      array("root", "PASS")
+                );
+        class ssh2 {
+        {SOON}
